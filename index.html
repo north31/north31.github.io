@@ -220,124 +220,9 @@
   <div class="article-entry" itemprop="articleBody">
     
     <h1 id="Markdown基础学习"><a href="#Markdown基础学习" class="headerlink" title="Markdown基础学习"></a>Markdown基础学习</h1><p>本文主要是本人学习Markdown的相关记录，方便快速了解Markdown基础语句。</p>
-<h2 id="Markdown标题"><a href="#Markdown标题" class="headerlink" title="Markdown标题"></a>Markdown标题</h2><p>用#可以表示1-6级标题，一级标题对应一个#，二级标题对应两个#号，以此类推。</p>
-<pre><code># 一级标题  </code></pre>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><pre><code>## 二级标题</code></pre>
-<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><hr>
-<h2 id="Markdown段落"><a href="#Markdown段落" class="headerlink" title="Markdown段落"></a>Markdown段落</h2><h3 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h3><p>Markdown可以使用以下几种字体： </p>
-<pre><code>\*斜体文本\*  
-\*\*粗体文本\*\*  
-\*\*\*粗斜体文本\*\*\*  </code></pre>
-<p>显示效果如下：</p>
-<p><em>斜体文本</em><br><strong>粗体文本</strong><br><strong><em>粗斜体文本</em></strong></p>
-<h3 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h3><p>可以在一行内用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他的东西。 </p>
-<pre><code>********  </code></pre>
-<p>显示效果如下：</p>
-<hr>
-<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><pre><code>~~删除~~</code></pre>
-<p>显示效果如下：</p>
-<p><del>删除</del></p>
-<h3 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h3><p>下划线可以通过HTML的&lt;u&gt;标签来实现：</p>
-<pre><code>\&lt;u&gt;带下划线文本\&lt;/u&gt;  </code></pre>
-<p>显示效果如下：</p>
-<p><u>带下划线文本</u></p>
-<h3 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h3><p>创建脚注格式类似这样：</p>
-<pre><code>[^RUNOOB]。
-
-[^RUNOOB]:我的脚注。 </code></pre>
-<p>显示效果如下：</p>
-<p><a href="%E6%88%91%E7%9A%84%E8%84%9A%E6%B3%A8%E3%80%82">^RUNOOB</a>。</p>
-<hr>
-<h2 id="Markdown列表"><a href="#Markdown列表" class="headerlink" title="Markdown列表"></a>Markdown列表</h2><pre><code>* 第一项 
-* 第二项 
-* 第三项  
-1. 第一项
-2. 第二项</code></pre>
-<p>显示效果如下：</p>
-<ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-<ol>
-<li>第一项</li>
-<li>第二项</li>
-</ol>
-<hr>
-<h2 id="Markdown区块"><a href="#Markdown区块" class="headerlink" title="Markdown区块"></a>Markdown区块</h2><pre><code>&gt;区块中使用列表
-&gt;1. first
-&gt;2. second
-&gt;* first
-&gt;* second
-* first
-    &gt;rookie teach  
-    &gt;learn dream
-* second</code></pre>
-<p>显示效果如下：</p>
-<blockquote>
-<p>区块中使用列表</p>
-<ol>
-<li>first</li>
-<li>second</li>
-</ol>
-<ul>
-<li>first</li>
-<li>second</li>
-</ul>
-</blockquote>
-<ul>
-<li>first<blockquote>
-<p>rookie teach<br>learn dream</p>
-</blockquote>
-</li>
-<li>second</li>
-</ul>
-<hr>
-<h2 id="Markdown代码"><a href="#Markdown代码" class="headerlink" title="Markdown代码"></a>Markdown代码</h2><pre><code>`printf()` 函数  
-    &lt;?php  
-    echo &#39;RUNOOB&#39;;  
-    function test() &#123;  
-        echo &#39;test&#39;  
-    &#125;</code></pre>
-<p>显示效果如下：  </p>
-<p><code>printf()</code> 函数 </p>
-<pre><code>&lt;?php  
-echo &#39;RUNOOB&#39;;  
-function test() &#123;  
-    echo &#39;test&#39;  
-&#125;</code></pre>
-<p>也可以用```包裹一段代码  </p>
-<hr>
-<h2 id="Markdown链接"><a href="#Markdown链接" class="headerlink" title="Markdown链接"></a>Markdown链接</h2><pre><code>这是一个链接[我的博客](https://www.north2020.xyz)</code></pre>
-<p>这是一个链接<a target="_blank" rel="noopener" href="https://www.north2020.xyz/">我的博客</a></p>
-<hr>
-<h2 id="Markdown图片"><a href="#Markdown图片" class="headerlink" title="Markdown图片"></a>Markdown图片</h2><pre><code>![一只猫咪](../../public/img/touxiang.jpg)</code></pre>
-<p><img src="../../public/img/touxiang.jpg" alt="一只猫咪"></p>
-<hr>
-<h2 id="Markdown表格"><a href="#Markdown表格" class="headerlink" title="Markdown表格"></a>Markdown表格</h2><pre><code>|左对齐|右对齐|居中对其|
-|:---- | ----:|:-----:|
-|单元格|单元格|单元格|
-|单元格|单元格|单元格|</code></pre>
-<table>
-<thead>
-<tr>
-<th align="left">左对齐</th>
-<th align="right">右对齐</th>
-<th align="center">居中对其</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">单元格</td>
-<td align="right">单元格</td>
-<td align="center">单元格</td>
-</tr>
-<tr>
-<td align="left">单元格</td>
-<td align="right">单元格</td>
-<td align="center">单元格</td>
-</tr>
-</tbody></table>
-
+    
+    <a class="article-more-a" href="/2020/10/01/Markdown%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/#more">more >></a>
+    
     
 
     
@@ -411,7 +296,7 @@ function test() &#123;
   
   <div class="article-entry" itemprop="articleBody">
     
-    
+    <a id="more"></a>
     
 
     
@@ -485,7 +370,7 @@ function test() &#123;
   
   <div class="article-entry" itemprop="articleBody">
     
-    
+    <a id="more"></a>
     
 
     
@@ -560,19 +445,9 @@ function test() &#123;
   <div class="article-entry" itemprop="articleBody">
     
     <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+    
+    <a class="article-more-a" href="/2020/09/28/hello-world/#more">more >></a>
+    
     
 
     
