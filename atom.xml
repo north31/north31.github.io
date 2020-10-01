@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-09-28T04:32:37.890Z</updated>
+  <updated>2020-10-01T05:36:29.778Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2020/10/01/markdown_learn/"/>
+    <id>http://example.com/2020/10/01/markdown_learn/</id>
+    <published>2020-10-01T03:26:19.443Z</published>
+    <updated>2020-10-01T05:36:29.778Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World!"></a>Hello World!</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>我是一个人<br>qwerewrewr<br><em>斜体文本</em><br><strong>粗体文本</strong><br>**<em>粗斜体文本**</em>  </p><hr><p>分割线<br><del>删除线</del><br><u>下划线</u><br>创建脚注格式类似这样<a href="%E6%88%91%E7%9A%84%E8%84%9A%E6%B3%A8%E3%80%82">^RUNOOB</a>。  </p><ul><li>第一项 </li><li>第二项 </li><li>第三项  </li></ul><ol><li>第一项</li><li>第二项<blockquote><p>区块中使用列表</p><ol><li>first</li><li>second</li></ol><ul><li>first</li><li>second</li></ul></blockquote></li></ol><ul><li>first<blockquote><p>rookie teach<br>learn dream</p></blockquote></li><li>second</li></ul><p><code>printf()</code> 函数<br>    &lt;?php<br>    echo ‘RUNOOB’;<br>    function test() {<br>        echo ‘test’<br>    }</p><p>这是一个链接<a href="https://www.runoob.com/">菜鸟链接</a>  </p><p><img src="a.jpg" alt="markdown 图片"></p><table><thead><tr><th>左对齐</th><th>右对齐</th><th>居中</th></tr></thead><tbody><tr><td>单元格</td><td>单元格</td><td>单元格</td></tr><tr><td>单元格</td><td>单元格</td><td>单元格</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Hello World!&quot;&gt;&lt;/a&gt;Hello World!&lt;/h1&gt;&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>myblog</title>
