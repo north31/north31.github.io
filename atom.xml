@@ -3,11 +3,11 @@
   <title>North</title>
   
   
-  <link href="http://north31.xyz/atom.xml" rel="self"/>
+  <link href="http://north2020.xyz/atom.xml" rel="self"/>
   
-  <link href="http://north31.xyz/"/>
-  <updated>2020-10-01T08:08:59.783Z</updated>
-  <id>http://north31.xyz/</id>
+  <link href="http://north2020.xyz/"/>
+  <updated>2020-10-01T08:38:52.502Z</updated>
+  <id>http://north2020.xyz/</id>
   
   <author>
     <name>North31</name>
@@ -17,9 +17,22 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>git基础学习</title>
+    <link href="http://north2020.xyz/2020/10/01/git%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://north2020.xyz/2020/10/01/git%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-10-01T08:38:52.000Z</published>
+    <updated>2020-10-01T08:38:52.502Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Markdown基础学习</title>
-    <link href="http://north31.xyz/2020/10/01/Markdown%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://north31.xyz/2020/10/01/Markdown%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</id>
+    <link href="http://north2020.xyz/2020/10/01/Markdown%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://north2020.xyz/2020/10/01/Markdown%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</id>
     <published>2020-10-01T07:28:13.000Z</published>
     <updated>2020-10-01T08:08:59.783Z</updated>
     
@@ -35,8 +48,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://north31.xyz/2020/09/28/hello-world/"/>
-    <id>http://north31.xyz/2020/09/28/hello-world/</id>
+    <link href="http://north2020.xyz/2020/09/28/hello-world/"/>
+    <id>http://north2020.xyz/2020/09/28/hello-world/</id>
     <published>2020-09-28T00:45:20.209Z</published>
     <updated>2020-10-01T07:56:06.434Z</updated>
     

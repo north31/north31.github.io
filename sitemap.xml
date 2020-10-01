@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://north31.xyz/2020/10/01/Markdown%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>http://north2020.xyz/2020/10/01/git%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://north31.xyz/2020/09/28/hello-world/</loc>
+    <loc>http://north2020.xyz/2020/10/01/Markdown%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2020-10-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://north2020.xyz/2020/09/28/hello-world/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
@@ -17,7 +24,7 @@
   
 
   <url>
-    <loc>http://north31.xyz/</loc>
+    <loc>http://north2020.xyz/</loc>
     <lastmod>2020-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
